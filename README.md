@@ -1,4 +1,4 @@
-# 随手账 · 第二集：后端与数据库
+# 随手账 · 第三集：Git 与 GitHub 实战
 
 同一台 Windows 电脑上的独立浏览器，通过同一后端读写 SQLite 账本。教学案例，无账号隔离；仅绑定本机，不应直接作为公开记账服务。示例金额不是真实个人消费。
 
@@ -53,10 +53,12 @@ py -m venv .venv
 服务实现：`app.py`；界面：`index.html`；完整制作提示词：`PROMPTS.txt`。MIT许可。
 
 个人博客：https://huangzhijun.online/
-系列仓库：https://github.com/xmhuangzhijun-hue/ledger-mvp
-本地第二集交付包独立提供；公开仓库未更新时请以本包为准。
+系列仓库：https://github.com/xmhuangzhijun-hue/ledger-git-github-tutorial
+本仓库保存第三集教学源码。运行数据库不在Git中，首次启动为空账本。
 
 Git 仓库不包含运行时生成的账本数据库。
 换电脑继续使用时，需要另外准备账本数据；克隆代码不会复制原账本。
 
 新开终端先确认位于项目根目录。
+
+本集新增月份导航、含年月的空态和读取失败提示。故障/冲突练习分支不发布。GitHub Release固定教学版本；不是线上SaaS服务。
